@@ -51,7 +51,6 @@ public class Calculator {
 	}
 
 
-
 	private static boolean footer(Scanner myObj) {
 		System.out.print("\nWould you like to continue? (Y/N): ");
 		char doneKey = myObj.next().charAt(0);

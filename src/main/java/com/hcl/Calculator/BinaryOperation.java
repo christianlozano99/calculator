@@ -8,13 +8,11 @@ public class BinaryOperation {
 	double num2;
 	
 	// Constructor calls method to set values
-	public BinaryOperation(Scanner myObj)
-	{
+	public BinaryOperation(Scanner myObj) {
 		setValues(myObj);
 	}
 	
-	private void setValues(Scanner myObj)
-	{
+	private void setValues(Scanner myObj) {
 		try {
 		System.out.print("\n _____________\n|             |\n|New Operation|\n|_____________|\n");
 		System.out.print("\nEnter Number 1: ");
