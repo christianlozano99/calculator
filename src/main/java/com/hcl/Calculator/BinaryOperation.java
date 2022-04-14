@@ -36,32 +36,36 @@ public class BinaryOperation {
 			setValues(myObj);
 		}
 	}
+	
+	private void printOperationResult(double result) {
+		System.out.println(this.num1 + " "+ this.operation+" " + this.num2 + " = " + result);
+	}
 
 	// all of the possible operations
 	
 	public void multiply() {
 		double result = this.num1 * this.num2;
-		System.out.println(this.num1 + " * " + this.num2 + " = " + result);
+		printOperationResult(result);
 	}
 	
 	public void add() {
 		double result = this.num1 + this.num2;
-		System.out.println(this.num1 + " + " + this.num2 + " = " + result);
+		printOperationResult(result);
 	}
 	
 	public void substract() {
 		double result = this.num1 - this.num2;
-		System.out.println(this.num1 + " - " + this.num2 + " = " + result);
+		printOperationResult(result);
 	}
 	
 	public void mod() {
 		double result = this.num1 % this.num2;
-		System.out.println(num1 + " % " + num2 + " = " + result);
+		printOperationResult(result);
 	}
 
 	public void power() {
 		double result = Math.pow(this.num1, this.num2);
-		System.out.println(this.num1 + " ^ " + this.num2 + " = " + result);
+		printOperationResult(result);
 	}
 
 	public void divide() {
